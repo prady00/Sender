@@ -1,3 +1,16 @@
+## Steps to install 
+
+1. Clone this repo
+2. Run "composer install" after going in Sender folder
+3. Copy contents of .env.example to .env file
+4. Create a MySQL DB - sender
+5. Run "php artisan migrate"
+6. Run "php artisan serve --port=8000
+
+Sender app is up and running
+
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
